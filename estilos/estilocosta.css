@@ -38,17 +38,13 @@ img.derecha{
     margin-left: 5%;
     margin-bottom: 5%;
 }
-img.izquierda{
-    float: left;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
+
 ul {
     list-style-type: none;
     text-align: center;
   }
   
-  li {
+li {
     background-color: #92f0eb;
     float: left;
     margin-right: 10px;
