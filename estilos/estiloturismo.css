@@ -79,6 +79,7 @@ div.indice {
 p{
     margin-left: 10px;
     margin-right: 10px;
+    align-items: auto;
 }
 p.centrado{
     text-align: center;
