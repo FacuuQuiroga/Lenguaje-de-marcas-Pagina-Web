@@ -4,7 +4,7 @@
     src: url("Fuentes/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
 html{
-    background: url("../imagenes/fondo.png");
+    background-color: bisque;
     margin-left: 20px;
     margin-right: 20px;
 }
@@ -12,10 +12,6 @@ html{
 body {
     font-family: "OpenSans";
     font-size: 100%;
-}
-header {
-    font-family: "OpenSans";
-    font-size: 80%;
 }
 
 footer {
@@ -28,15 +24,21 @@ a.index{
 }
 h1{
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
 }
 h3{
     text-align: left;
     clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 img.derecha{
     float: right;
-    margin-left: 5%;
-    margin-bottom: 5%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
 }
 
 ul {
@@ -45,7 +47,26 @@ ul {
   }
   
 li {
-    background-color: #92f0eb;
+    background-color: lightblue;
     float: left;
     margin-right: 10px;
   }
+
+div {
+    background-color: lightblue;
+    margin: 10px;
+    padding: 10px;
+    border-radius:5px;
+    clear: both;
+    overflow: auto;
+  }
+  div.indice {
+    font-family: "OpenSans";
+    font-size: 80%;
+    border-radius: 5px;
+}
+  p.centrado{
+      text-align: center;
+  }
+
+
