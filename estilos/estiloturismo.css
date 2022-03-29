@@ -17,11 +17,6 @@ body {
 
 }
 
-footer {
-    font-family: 'Red Hat Mono', monospace;
-    font-size: medium;
-}
-
 a.index{
     font-size: 100%;
     text-align: right;
@@ -65,6 +60,8 @@ li {
     background-color: white;
     float: left;
     margin-right: 50px;
+    margin-bottom:10px;
+	margin-top:10px;
 	border-radius:20px;
 	border:1px solid white;
 	
@@ -100,4 +97,9 @@ p{
 
 p.centrado{
     text-align: center;
+}
+
+footer {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: medium;
 }
