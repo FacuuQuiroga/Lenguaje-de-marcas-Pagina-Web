@@ -72,7 +72,8 @@ div {
   }
   div.indice {
 	background-image: url(../imagenes/cullera-beach-banner.jpg);
-	background-position:center;
+    background-attachment:fixed;
+	background-position:bottom;
 	padding:30px;
     font-family: "OpenSans";
     font-size: 80%;
