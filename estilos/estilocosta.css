@@ -3,6 +3,10 @@
     font-family: "OpenSans";
     src: url("Fuentes/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
 }
+@font-face {
+    font-family: "Merienda";
+    src: url("Fuentes/Merienda-Bold.ttf");
+}
 html{
     margin-left: 20px;
     margin-right: 20px;
@@ -83,7 +87,7 @@ div {
     background-repeat: round;
 
 	padding:30px;
-    font-family: "OpenSans";
+    font-family: "Merienda";
     font-size: 80%;
     display:flex;
 	flex-direction:column;
