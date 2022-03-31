@@ -48,16 +48,21 @@ img.derecha{
 ul {
     list-style-type: none;
     text-align: center;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    border-radius:35px;
+    clear: both;
+    overflow: auto;
+	border:3px solid white;
   }
   
 li {
-    background-color: white;
     float: left;
-	margin-right: 50px;
-	margin-bottom:10px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom:10px;
 	margin-top:10px;
-	border-radius:20px;
-	border:1px solid white;  
 	
 	}
 
@@ -70,10 +75,13 @@ div {
     overflow: auto;
 	border:3px solid white;
   }
+ 
   div.indice {
 	background-image: url(../imagenes/cullera-beach-banner.jpg);
     background-attachment:fixed;
-	background-position:bottom;
+	background-position:left;
+    background-repeat: round;
+
 	padding:30px;
     font-family: "OpenSans";
     font-size: 80%;

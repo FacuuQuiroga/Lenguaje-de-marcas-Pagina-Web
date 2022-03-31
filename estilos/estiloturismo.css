@@ -54,16 +54,22 @@ img.izquierda{
 ul {
     list-style-type: none;
     text-align: center;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    border-radius:35px;
+    clear: both;
+    overflow: auto;
+	border:3px solid white;
+
   }
   
 li {
-    background-color: white;
     float: left;
-    margin-right: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
     margin-bottom:10px;
 	margin-top:10px;
-	border-radius:20px;
-	border:1px solid white;
 	
   }
 
@@ -85,7 +91,7 @@ div.indice {
 	align-items:center;
 	background-image: url(../imagenes/banner.jpg);
     background-attachment:fixed;
-	background-position:bottom;
+	background-position:top;
 	padding:30px;
 
 }
