@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:ital@1&display=swap');
+@font-face {
+    font-family: "OpenSans";
+    src: url("Fuentes/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+@font-face {
+    font-family: "Merienda";
+    src: url("Fuentes/Merienda-Bold.ttf");
+}
+html{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+	background-image: url(../imagenes/cullera-beach-banner.jpg);
+    background-attachment:fixed;
+	background-position:left;
+    background-repeat: round;
+	padding:30px;
+    font-family: "Merienda";
+    font-size: 80%;
+    display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+body {
+    font-family: "OpenSans";
+    font-size: 100%;
+	background-image: url(../imagenes/1-fondo.png);
+	background-attachment:fixed;
+	background-color: beige;
+}
+
+
+a.index{
+    font-size: 90%;
+    text-align: right;
+	margin-right: 50px;
+	border-radius:20px;
+	border:1px solid white;
+	background-color: white;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: auto;
+}
+h3{
+    text-align: left;
+    clear: both;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+img.derecha{
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-radius:10px;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    background-color: lightblue;
+    margin: 10px;
+    padding: 5px;
+    border-radius:35px;
+    clear: both;
+    overflow: auto;
+	border:3px solid white;
+  }
+  
+li {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom:10px;
+	margin-top:10px;
+	
+	}
+
+div {
+    background-color: #add8e6;
+    margin: 10px;
+    padding: 15px;
+    border-radius:35px;
+    clear: both;
+    overflow: auto;
+	border:3px solid white;
+  }
+ 
+  
+p.centrado{
+      text-align: center;
+  }
+
+footer {
+    font-family: 'Red Hat Mono', monospace;
+    font-size: medium;
+}
