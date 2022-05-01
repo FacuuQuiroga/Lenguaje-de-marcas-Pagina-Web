@@ -46,6 +46,15 @@ section {
   border-radius:8px;
   overflow: hidden;
   }
+section.nav{
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  margin: 0 0 20px;
+  background-color: #add8e6; 
+  border-radius:8px;
+  overflow: hidden;
+}
 footer {
   font-family: 'Red Hat Mono', monospace;
   font-size: medium;
@@ -60,6 +69,10 @@ img{
   max-width: 100%;
   height: auto;
   }
+  .responsive {
+    width: 100%;
+    height: auto;
+  }
 h1{
   text-align: center;
   margin-top: 20px;
@@ -72,7 +85,7 @@ h3{
   margin-top: 5px;
   margin-bottom: 5px;
   }
-}
+
 .centrado {
     text-align: center;
     border-bottom: none;
@@ -104,6 +117,7 @@ h3{
     color: black;
     border-radius:10px;
   }
+  
   
 }
 
